@@ -1,0 +1,86 @@
+.MovieInfo img {
+    height: 70vh;
+    width: 30%;
+    object-fit: cover;
+}
+
+.MovieInfo {
+    margin: auto;
+    overflow: hidden;
+    height: 90vh;
+    width: 95vw;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MovieInfo__Right{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-around;
+    height: 45vh;
+}
+
+.Movie_Options{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.Movie_Options p {
+    display: flex;
+    align-items: center;
+}
+
+.Movie_Options h3 {
+    padding: 10px;
+    border: 3px solid gold;
+    border-radius: 50%;
+    background: transparent;
+    transform: scale(1.5);
+}
+
+.Movie_Options .MuiAvatar-root{
+    background: green !important;
+}
+
+.Movie_Options .MuiAvatar-root:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.Movie_Title h1 {
+    font-size: 40px;
+    text-shadow: 0px 3px 5px grey;
+}
+
+.MovieTitleMore {
+    display: flex;
+    align-items: center;
+}
+
+.MovieTitleMore span {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.MovieTitleMore .MuiSvgIcon-root {
+    color: green !important;
+    font-size: 12px !important;
+}
+
+.Movie_Icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Movie_Icon p {
+    color: whitesmoke;
+    font-size: 13px;
+}

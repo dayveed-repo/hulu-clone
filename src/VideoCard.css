@@ -1,0 +1,31 @@
+.VideoCard img{
+    width: 360px;
+    height: 200px;
+    object-fit: cover;
+}
+.VideoCard{
+    padding: 15px;
+    transition: transform 100ms ease-out;
+    max-width: 30vw;
+}
+.VideoCard:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.VideoCard h2{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 7px;
+}
+
+.VideoCardInfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+.VideoCardInfo > .MuiAvatar-root{
+    background-color: rgb(5, 54, 20);
+}

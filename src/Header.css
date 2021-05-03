@@ -1,0 +1,77 @@
+.Header{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    overflow-x: scroll;
+    width: 90vw;
+}
+.Header::-webkit-scrollbar{
+    display: none;
+}
+.HeaderLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+.Header img{
+    height: 30px;
+    object-fit: contain;
+}
+
+.HeaderIcon .MuiSvgIcon-root{
+    color: white;
+    font-size: 20px;
+}
+.HeaderIcon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 65px;
+    cursor: pointer;
+    transition: display 100ms ease-out;
+}
+
+.HeaderIcon:hover p{
+    display: inline-flex;
+}
+
+.HeaderIcon p{
+    display: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: x-small;
+    font-weight: 500;
+}
+
+.active p{
+    display: inline-flex !important;
+}
+
+.Search {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 5px;
+    flex: 0.8;
+}
+
+.Search input{
+    display: flex;
+    background: transparent;
+    outline-width: 0;
+    border: none;
+    flex: 1;
+}
+
+.Search .MuiButtonBase-root {
+    color: linear-gradient(90deg, rgb(2, 7, 29), rgb(12, 51, 30)) !important;
+    padding: 5px;
+}
+
+.Search .MuiSvgIcon-root:hover {
+    cursor: pointer;
+}
